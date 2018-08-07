@@ -1,4 +1,6 @@
-<?php namespace Hpolthof\Backblaze;
+<?php 
+
+namespace Imannms\Backblaze;
 
 use BackblazeB2\Client;
 use Illuminate\Support\Facades\Storage;

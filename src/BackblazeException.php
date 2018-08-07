@@ -1,4 +1,6 @@
-<?php namespace Hpolthof\Backblaze;
+<?php 
+
+namespace Imannms\Backblaze;
 
 class BackblazeException extends \Exception
 {
