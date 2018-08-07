@@ -1,21 +1,23 @@
 # Backblaze B2 Cloud Storage for Laravel 5
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/hpolthof/laravel-backblaze.svg?style=flat-square)](https://packagist.org/packages/hpolthof/laravel-backblaze)
-[![Total Downloads](https://img.shields.io/packagist/dt/hpolthof/laravel-backblaze.svg?style=flat-square)](https://packagist.org/packages/hpolthof/laravel-backblaze)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/imannms/larablaze.svg?style=flat-square)](https://packagist.org/packages/imannms/larablaze)
+[![Total Downloads](https://img.shields.io/packagist/dt/imannms/larablaze.svg?style=flat-square)](https://packagist.org/packages/imannms/larablaze)
 
 Backblaze B2 is a great cloud storage system that compares to Amazon S3, but uses lower pricing, so worth the try. ;-)
 Since I couldn't find a serviceprovider to implement B2 into the Laravel Filesystem, I wrote one myself. 
 Feel free to use it.
+
+This package is forked from [https://github.com/hpolthof/laravel-backblaze](https://github.com/hpolthof/laravel-backblaze)
  
 ## Installation
 Via Composer
 ```
-composer require hpolthof/laravel-backblaze
+composer require imannms/laravel-backblaze
 ```
 
 In your app.php config file add to the list of service providers:
 ```
-\Hpolthof\Backblaze\BackblazeServiceProvider::class,
+Imannms\Backblaze\BackblazeServiceProvider::class,
 ```
 
 Add the following to your filesystems.php config file in the ```disks``` section:
