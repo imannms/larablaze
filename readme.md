@@ -12,7 +12,7 @@ This package is forked from [https://github.com/hpolthof/laravel-backblaze](http
 ## Installation
 Via Composer
 ```
-composer require imannms/laravel-backblaze
+composer require imannms/larablaze
 ```
 
 In your app.php config file add to the list of service providers:
