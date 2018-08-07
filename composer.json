@@ -1,7 +1,7 @@
 {
-  "name": "hpolthof/laravel-backblaze",
+  "name": "imannms/laravel-backblaze",
   "type": "library",
-  "description": "Backblaze B2 Cloud Storage for Laravel 5",
+  "description": "Backblaze B2 Cloud Storage for Laravel 5.",
   "keywords": [
     "laravel",
     "B2",
@@ -10,13 +10,13 @@
     "backblaze",
     "disks"
   ],
-  "homepage": "https://github.com/hpolthof/laravel-backblaze",
+  "homepage": "https://github.com/imannms/laravel-backblaze",
   "license": "MIT",
   "authors": [
     {
-      "name": "Paul Olthof",
-      "email": "hpolthof@gmail.com",
-      "homepage": "https://github.com/hpolthof",
+      "name": "imannms",
+      "email": "socialtrens@gmail.com",
+      "homepage": "https://github.com/imannms",
       "role": "Developer"
     }
   ],
