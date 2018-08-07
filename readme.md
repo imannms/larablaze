@@ -15,6 +15,9 @@ Via Composer
 composer require imannms/larablaze
 ```
 
+For Laravel 5.5 or higher, the package will automatically register its service provider.
+
+For Laravel 5.4 or bellow, you'll need to register the service provider.
 In your app.php config file add to the list of service providers:
 ```
 Imannms\Backblaze\BackblazeServiceProvider::class,
