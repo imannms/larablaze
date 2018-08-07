@@ -1,5 +1,5 @@
 {
-  "name": "imannms/laravel-backblaze",
+  "name": "imannms/larablaze",
   "type": "library",
   "description": "Backblaze B2 Cloud Storage for Laravel 5.",
   "keywords": [
